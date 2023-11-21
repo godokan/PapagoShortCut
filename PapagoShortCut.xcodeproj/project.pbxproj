@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3BAEB812B0D188B000B9D35 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F3BAEB802B0D188B000B9D35 /* Credits.rtf */; };
+		F3BAEB832B0D20DB000B9D35 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAEB822B0D20DB000B9D35 /* WebView.swift */; };
 		F3F1B62C2B0CFDE400BAEFE8 /* PapagoShortCutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1B62B2B0CFDE400BAEFE8 /* PapagoShortCutApp.swift */; };
 		F3F1B62E2B0CFDE400BAEFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1B62D2B0CFDE400BAEFE8 /* ContentView.swift */; };
 		F3F1B6302B0CFDE600BAEFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F1B62F2B0CFDE600BAEFE8 /* Assets.xcassets */; };
 		F3F1B6332B0CFDE600BAEFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F1B6322B0CFDE600BAEFE8 /* Preview Assets.xcassets */; };
+		F3F1B63D2B0D0E3600BAEFE8 /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1B63C2B0D0E3600BAEFE8 /* ApplicationMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3BAEB802B0D188B000B9D35 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		F3BAEB822B0D20DB000B9D35 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		F3F1B6282B0CFDE400BAEFE8 /* PapagoShortCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PapagoShortCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F1B62B2B0CFDE400BAEFE8 /* PapagoShortCutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoShortCutApp.swift; sourceTree = "<group>"; };
 		F3F1B62D2B0CFDE400BAEFE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3F1B62F2B0CFDE600BAEFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3F1B6322B0CFDE600BAEFE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3F1B6342B0CFDE600BAEFE8 /* PapagoShortCut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PapagoShortCut.entitlements; sourceTree = "<group>"; };
+		F3F1B63C2B0D0E3600BAEFE8 /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
+		F3F1B63E2B0D120000BAEFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +59,15 @@
 		F3F1B62A2B0CFDE400BAEFE8 /* PapagoShortCut */ = {
 			isa = PBXGroup;
 			children = (
+				F3F1B63E2B0D120000BAEFE8 /* Info.plist */,
 				F3F1B62B2B0CFDE400BAEFE8 /* PapagoShortCutApp.swift */,
 				F3F1B62D2B0CFDE400BAEFE8 /* ContentView.swift */,
+				F3BAEB822B0D20DB000B9D35 /* WebView.swift */,
+				F3F1B63C2B0D0E3600BAEFE8 /* ApplicationMenu.swift */,
 				F3F1B62F2B0CFDE600BAEFE8 /* Assets.xcassets */,
 				F3F1B6342B0CFDE600BAEFE8 /* PapagoShortCut.entitlements */,
 				F3F1B6312B0CFDE600BAEFE8 /* Preview Content */,
+				F3BAEB802B0D188B000B9D35 /* Credits.rtf */,
 			);
 			path = PapagoShortCut;
 			sourceTree = "<group>";
@@ -128,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F1B6332B0CFDE600BAEFE8 /* Preview Assets.xcassets in Resources */,
+				F3BAEB812B0D188B000B9D35 /* Credits.rtf in Resources */,
 				F3F1B6302B0CFDE600BAEFE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F1B62E2B0CFDE400BAEFE8 /* ContentView.swift in Sources */,
+				F3BAEB832B0D20DB000B9D35 /* WebView.swift in Sources */,
+				F3F1B63D2B0D0E3600BAEFE8 /* ApplicationMenu.swift in Sources */,
 				F3F1B62C2B0CFDE400BAEFE8 /* PapagoShortCutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +291,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PapagoShortCut/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PapagoShortCut/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +318,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PapagoShortCut/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PapagoShortCut/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
